@@ -1,0 +1,20 @@
+.banner{
+    margin:auto;
+    height: 50%;
+    width: 100%;
+}
+div{
+    background-color: gray;
+    margin:auto;
+    height: 50%;
+    width:100%;
+}
+body{
+    margin:0
+}
+.circle_image { 
+    border-radius: 50%; 
+    border: 10px solid #555;
+    border-color: black ;
+    width:30.5%;
+}
