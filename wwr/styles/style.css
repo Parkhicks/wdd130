@@ -18,7 +18,7 @@ nav {
   font-family: "Bungee Spice","Georgia","Courier New";
   font-size: 1em;
   padding: 40px;
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-column-end: 3;
 }
 #hero-msg h1{
@@ -52,11 +52,15 @@ body{
   text-align: center;
 }
 header{
-  text-align:center;
   background-color: #756D54;
   font-family: "Bungee Spice","Georgia","Courier New";
   display: grid;
   grid-template-columns: 150px auto;
+}
+.logo{
+  width: 80px;
+  border: 10px solid #F28C28;
+  grid-column-start: 0;
 }
 nav a:hover{
   background-color: #2D3047;
@@ -123,11 +127,7 @@ footer{
 
 }
 
-#logo_link {
-  padding-top: 5px;
-  justify-self: center;
-  align-self: center;
-}
+
 
 #hero {
   display: grid;
@@ -155,11 +155,7 @@ footer{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.logo{
-  width: 80px;
-  left: 100px;
-  border: 10px solid #F28C28;
-}
+
 .book{
   text-align: center;
   color: #fcfbfb;
