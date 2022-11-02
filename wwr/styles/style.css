@@ -60,7 +60,7 @@ header{
 .logo{
   width: 80px;
   border: 10px solid #F28C28;
-  grid-column-start: 0;
+  grid-column-start: 1;
 }
 nav a:hover{
   background-color: #2D3047;
