@@ -1,0 +1,63 @@
+header{
+    background-color: #756D54;
+    font-family: "Bungee Spice","Georgia","Courier New";
+    display: grid;
+    grid-template-columns: 150px auto;
+  }
+  .logo{
+    width: 80px;
+    border: 10px solid #F28C28;
+    grid-column-start: 1;
+  }
+  nav a:hover{
+    background-color: #2D3047;
+    color: black;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Bungee Spice","Georgia","Courier New";
+    font-size: 1em;
+    padding: 40px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+#excursions {
+    text-align: center;
+    font-family:"Bungee Spice";
+    font-size: 10px;
+    display:grid;
+    grid-template-columns: 7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69%;
+    grid-template-rows: 1fr 1fr 4fr 1fr 1fr;
+  }
+  .background{
+    grid-column-start: 1;
+    grid-column-end: 14;
+    background-color:whitesmoke;
+  }
+  #excursions h1 {
+    grid-column-start:2;
+    grid-column-end: 13;
+    grid-row: 1;
+  }
+  .salmon{
+    grid-column-start:2;
+    grid-column-end: 5;
+  }
+  .rogue{
+    grid-column-start:6;
+    grid-column-end: 9;
+  }
+  .american{
+    grid-column-start:10;
+    grid-column-end: 13;
+  }
+  footer{
+    background-color: #6f7364;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
